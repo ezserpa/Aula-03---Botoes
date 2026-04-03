@@ -1,0 +1,36 @@
+.paginacao {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+}
+
+.paginacao li {
+    display: inline;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ccc;
+}
+
+.pagina.ativo {
+    background: #333;
+    color: white;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
